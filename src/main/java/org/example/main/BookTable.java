@@ -1,11 +1,9 @@
-package org.example;
+package org.example.main;
 
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
 import javax.swing.table.DefaultTableModel;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
 public class BookTable {
     public static void main(String[] args) {
@@ -92,7 +90,7 @@ public class BookTable {
             authorField.setText("");
             yearField.setText("");
         });
-
+        System.out.println();
         // Tampilkan frame
         frame.setVisible(true);
     }
